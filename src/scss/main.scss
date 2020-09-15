@@ -38,12 +38,6 @@
 
 /* LES VARIABLES CSS ICI */
 :root {
-  --font-primaire: 'Cardo', serif;
-  --font-secondaire:'Bungee Shade', cursive;
-
-  --couleur-noir: #000;
-  --couleur-blanc: #fff;
-
   --degrade-principale: linear-gradient(36deg, rgba(167,2,154,0.7) 0%, rgba(167,2,154,0) 100%)
 }
 
@@ -56,16 +50,6 @@ html{
 
 *, *:before, *:after{
   box-sizing:inherit;
-}
-
-h4{
-  font-weight: bold;
-  font-size: 1.125rem;
-  line-height: 24px;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: var(--couleur-noir);
 }
 
 a{
